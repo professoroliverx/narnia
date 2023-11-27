@@ -1,0 +1,157 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+* h1{
+    color: #162542;
+}
+
+.header{
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    width: 1110px;
+    height: 58px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button{
+    color: #162542;
+    background-color: #E8EFF2;
+    font-size: 16px;
+    width: 175px;
+    left: 1100px;
+    top: 55px;
+    height: 58px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.header button:hover{
+    background-color: #162542;
+    color: #FFFFFF;
+}
+
+
+.firstcontainer{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.firstcontainertext{
+    margin-top: 143px;
+    width: 445px;
+    height: 312px;
+}
+
+.firstcontainertext h1{
+    font-size: 56px;
+    margin: 0;
+}
+
+.improvenote{
+    line-height: 26px;
+    font-size: 18px;
+    color: rgb(144, 144, 168);
+}
+
+.firstcontainertext button{
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 175px;
+    height: 58px;
+    background-color: #F06721;
+    color: #FFFFFF;
+}
+
+.firstcontainertext button:hover{
+    background-color: #FF9B62;
+}
+
+.releasenote{
+    font-size: 16px;
+    color: #7A8CAC;
+    margin-left: 35px;
+}
+
+.keyboard {
+    width: 540px;
+    height: 480px;
+    margin-top: 83px;
+    margin-left: 125px;
+}
+
+.secondcontainer{
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+.secondcontainer span{
+    color: #7A8CAC;
+}
+
+.keyboardtwo{
+    width: 255px;
+    height: 480px;
+}
+
+.keyboardthree{
+    width: 445px;
+    height: 480px;
+    margin-left: 30px;
+}
+
+.mechanicaltext{
+    margin-top: 112px;
+    width: 255px;
+    height: 265px;
+    margin-left: 125px;
+}
+
+.thirdcontainer{
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 168px;
+    display: grid;
+    width: 1110px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.thirdcontainer > div{
+    width: 255px;
+    height: 323px;
+}
+
+.thirdcontainer h1{
+    width: 255px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.thirdcontainer span{
+    color: #7A8CAC;
+    width: 255px;
+    height: 190px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.fourthcontainer{
+    margin: auto;
+    margin-bottom: 40px;
+    width: 272px;
+    height: 26px;
+    margin-top: 128px;
+    color: #7A8CAC;
+}
+
