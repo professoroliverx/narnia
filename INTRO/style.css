@@ -1,0 +1,216 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Group\ 5.jpg);
+    width: 375px;
+    height: 1000px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 88px;
+    height: 226px;
+    width: 327px;
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 64px;
+    width: 327px;
+    height: 554px;
+}
+
+.free{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #5d56a3ff;
+    height: 88px;
+    width: 327px;
+}
+
+.signup{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background-color: #ffffffff;
+    height: 442px;
+    width: 327px;
+}
+
+.signup input{
+    color: #3D3B48;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 14px;
+    padding: 15px 19.41px 15px 19.41px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    width: 279px;
+    height: 56px;
+}
+
+.signup button{
+    cursor: pointer;
+    line-height: 26px;
+    font-size: 15px;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    border-radius: 5px;
+    border: none;
+    color: #ffffffff;
+    background-color: #3dcc8eff;
+    width: 279px;
+    height: 56px;
+}
+
+.signup span{
+    color: #BAB7D4;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 249px;
+    height: 42px;
+}
+
+.name{
+    margin-top: 24px;
+}
+
+.signup a {
+    color: #ff7a7aff;
+    text-decoration: none;
+}
+
+.header h5{
+    margin: 0;
+    color: #FFF;
+    height: 80px;
+    width: 327px;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.header h6{
+    margin: 16px 0 0 0;
+    font-weight: 500;
+    color: #FFF;
+    width: 327px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.free h4{
+    font-weight: 200;
+    width: 194px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFF;
+}
+
+
+/* DESKTOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media only screen and (min-width: 1440px) {
+    .container{
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        background-image: url(Group\ 5\ \(1\).jpg);
+        width: 1440px;
+        height: 800px;
+        background-color: blue;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        text-align:left;
+        margin: 22.5px;
+        width: 525px;
+        height: 220px;
+    }
+
+    .signin{
+        margin: 22.5px;
+        width: 540px;
+        height: 558px;
+    }
+
+    .free{
+        height: 60px;
+        width: 540px;
+    }
+
+    .signup{
+        height: 474px;
+        width: 540px;
+    }
+
+    .signup input{
+        padding: 15px 32px 15px 32px;
+        width: 460px;
+        height: 56px;
+    }
+    
+    .signup button{
+        width: 460px;
+        height: 56px;
+    }
+    
+    .signup span{
+        margin-bottom: 40px;
+        width: 367px;
+        height: 26px;
+    }
+
+    .name{
+        margin-top: 40px;
+    }
+
+    .header h5{
+        margin: 0;
+        color: #FFF;
+        height: 80px;
+        height: 131;
+        width: 525px;
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .header h6{
+        color: #FFF;
+        width: 525px;
+        
+    }
+
+    .free h4{
+        font-weight: 200;
+        width: 316px;
+        height: 26px;
+        font-size: 15px;
+        line-height: 26px;
+        color: #FFF;
+    }
+    
+}
