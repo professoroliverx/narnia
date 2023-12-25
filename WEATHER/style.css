@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: url(./weatherone.svg);
+    width: 375px;
+    height: 744px;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 375px;
+    height: 246px;
+}
+
+
+.item3{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1/ span 2;
+    grid-row: 2;
+}
+
+.item2{
+    color: aliceblue;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 374px;
+    height: 498px;
+    border-top: 5px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(9.5px);
+}
+
+.temperature{
+    display: flex;
+}
+
+.weather{
+    align-items: center;
+    width: 285px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.inside{
+    color: aliceblue;
+    margin-top: 55px;
+    justify-content: space-between;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .thunderstorm{
+    margin: 0;
+ }
+
+ .inside h6{
+    margin: 0;
+ }
+
+ .bar{
+    margin-top: 89px;
+    background-color: aliceblue;
+    width: 285px;
+    height: 1.5px;
+ }
+
+ .logo{
+    width: 39px;
+    height: 20px;
+    margin: 19px 0 0 22px;
+ }
+  
+ #input{
+    border: none;
+    width: 111px;
+    color: white;
+    background-color: transparent;
+    margin-top: 19px;
+    margin-left: 99px;
+}
+
+.calendar{
+    justify-content: space-between;
+    margin-left: 22px;
+    align-items: center;
+    display: flex;
+    width: 255px;
+}
+
+.celsius{
+    font-size: 64px;
+}
+
+.location{
+    font-size: 30px;
+}
+
+.numbers{
+    font-size: 10px;
+}
+
+#inputtwo{
+    display:none;
+}
+
+.glass{
+    margin-right: -47px;
+}
+
+.line{
+    margin-left: 101px;
+    background-color: aliceblue;
+    width: 126px;
+    height: 1.5px;
+}
+
+.bar{
+    border: none;
+}
+
+.neom{
+    margin-left: 39px;
+    height: 82px;
+    width: 230px;
+}
+
+
+/* TABLET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media only screen and (min-width: 775px){
+    .container{
+        width: 768px;
+        height: 1049px;
+        background: url(weathertwo.svg)
+    }
+
+    .search{
+        width: 768px;
+        height: 451px;
+    }
+
+    .details{
+        width: 768px;
+        height: 594px;
+    }
+
+    .logo{
+        width: 60px;
+        height: 31px;
+        margin-top: 27px;
+        margin-left: 39px;
+    }
+
+    #input{
+        margin-top: 27px;
+
+    }
+
+    #inputtwo{
+        display: none;
+    }
+
+    .neom{
+        margin-left: 362px;
+    }
+
+    .calendar{
+        width: 509px;
+    }
+
+    .celsius{
+        font-size: 120px;
+    }
+    
+    .location{
+        font-size: 48px;
+    }
+
+    .numbers{
+        font-size: 16px;
+    }
+
+    .calendar img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .glasstwo{
+        display: none;
+    }
+
+    
+}
+
+
+
+/* DESKTOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media only screen and (min-width: 1449px){
+    .container{
+        display: flex;
+        width: 1440px;
+        height: 806px;
+        background: url(./weatherthree.svg)
+    }
+
+    .search{
+        width: 914px;
+        height: 806px;
+    }
+
+    .details{
+        border-left: 5px solid rgba(255, 255, 255, 0.14);
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(9.5px);
+        width: 526px;
+        height: 806px;
+    }
+
+    #input{
+        display: none;
+    }
+
+    #inputtwo{
+        border: none;
+        background-color: transparent;
+        display: block;
+    }
+
+    .calendar{
+        width: 509px;
+    }
+
+    .celsius{
+        font-size: 134px;
+    }
+    
+    .location{
+        font-size: 70px;
+    }
+
+    .numbers{
+        font-size: 19px;
+    }
+
+    .calendar img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .two{
+        display: flex;
+        align-items: center;
+        width: 200px;
+        justify-content: space-between;
+    }
+
+
+
+   
+}
