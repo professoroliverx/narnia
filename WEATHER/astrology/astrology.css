@@ -1,0 +1,227 @@
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigcontainer{
+    background-color: #e1e6e8ff;
+    width: 428px;
+    height: 1805px;
+}
+
+.usa{
+    justify-content: space-between;
+    border-radius: 25px;
+    height: 38px;
+    width: 378px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    margin-right: -140px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kid{
+    height: 1700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.dive{
+    margin-top: 61px;
+    text-align: center;
+    width: 338px;
+    height: 90px;
+    font-size: 30px;
+}
+
+.dive span{
+    color: #2d396bff;
+}
+
+.killer{
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.killer span{
+    font-weight: 600;
+    margin-top: 35px;
+    font-size: 22px;
+    color: #000000ff;
+}
+
+.zodiac{
+    margin-top: 78px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.search{
+    display: none;
+}
+
+.usa li{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 26px;
+    list-style: none;
+}
+
+
+.dropdown{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+    z-index: 999;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.usa li:hover{
+    background-color: white;
+    border-radius: 25px;
+}
+
+.usa li:hover .dropdown{
+    display: block;
+}
+
+
+/* DESKTOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+@media only screen and (min-width: 1920px){
+    .bigcontainer{
+        background-color: #ffffffff;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        width: 1920px;
+        height: 1080px;
+    }
+
+    .search{
+        background-color: antiquewhite;
+        width: 121px;
+        height: 1030px;
+        border-radius: 25px;
+        background-color: #edebebff;
+    }
+
+    .usa{
+        display: none;
+    }
+
+    .zodiac{
+        margin-top: 135px;
+        width: 1400px;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+
+    .brother{
+        margin-top: 60px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kid{
+        margin: 0;
+        border-radius: 25px;
+        background: url(./dudu.jpg);
+        width: 1723px;
+        height: 1030px;
+    }
+
+    .dive span{
+        font-size: 60px;
+    }
+
+    .dive{
+        width: 852px;
+    }
+
+    .search{
+        margin-left: 21px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between ;
+    }
+
+    .firstorder{
+        justify-content: space-between;
+        height: 350px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstorder img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .firstorder span{
+        font-size: 16px;
+    }
+
+    .farm{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 103px;
+        height: 882px;
+    }
+
+    .secondorder{
+        height: 200px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .america{
+        width: 32px;
+        height: 32px;
+    }
+
+    .line{
+        margin-top: -27px;
+        width: 121px;
+        height: 1px;
+        background-color: #a6a1a2ff;
+    }
+}

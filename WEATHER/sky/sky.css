@@ -1,0 +1,268 @@
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1e6e8ff;
+    width: 428px;
+    height: 928px;
+}
+
+.search{
+    margin-top: 40px;
+    justify-content: space-between;
+    display: flex;
+    width: 378px;
+    height: 38px;
+}
+
+.usa{
+    margin-right: -60px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+    width: 378px;
+    height: 540px;
+}
+
+.in{
+    border-radius: 15px;
+    border-radius: 1px solid black;
+    width: 377px;
+    height: 59px;
+}
+
+.level{
+    display: flex;
+    align-items: center;
+}
+
+.checkboxes{
+    justify-content: space-between;
+    align-items: center;
+    width: 378px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.phone button {
+    font-size: 22px;
+    color: white;
+    border: none;
+    background-color: #2d396bff;
+    width: 378px;
+    height: 55px;
+    border-radius: 15px;
+}
+
+.phone h6{
+    margin: 0;
+    font-size: 30px;
+    color: #3f4a75ff;
+}
+
+.phone span{
+    text-align: center;
+    font-size: 14px;
+    width: 369px;
+}
+
+.level input{
+    width: 41px;
+    height: 23px;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.rain{
+    display: none;
+}
+
+.nokia{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+    width: 378px;
+    height: 540px;
+}
+
+.search li{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+    list-style: none;
+}
+
+
+.dropdown{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+    z-index: 999;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li{
+    display: flex;
+    justify-content: center;
+}
+
+.search li:hover{
+    background-color: white;
+    border-radius: 25px;
+}
+
+.search li:hover .dropdown{
+    display: block;
+}
+
+
+/* DESKTOP!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media only screen and (min-width: 1920px){
+    .bigcontainer{
+        background-color: #ffffffff;
+        justify-content: space-between;
+        flex-direction: row;
+        display: flex;
+        width: 1920px;
+        height: 1080px;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .hidden{
+        margin-left: 21px;
+        justify-content: center;
+        border-radius: 25px;
+        background-color: #edebebff;
+        width: 121px;
+        height: 1030px;
+        display: flex;
+    }
+
+    .rain{
+        display: block;
+    }
+
+    .phone{
+        align-items: center;
+        margin: 0;
+        background: url(../astrology/dudu.jpg);
+        border-radius: 25px;
+        width: 1723px;
+        height: 1030px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .farm{
+        margin-top: 103px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        height: 882px;
+    }
+    
+    .bora{
+        justify-content: space-between;
+        align-items: center;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .norma{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .line{
+        margin-top: -27px;
+        width: 121px;
+        height: 1px;
+        background-color: #a6a1a2ff;
+    }
+
+    .nokia{
+        align-items: flex-start;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        margin-top: 0;
+        margin-left: 66px;
+    }
+
+    .nokia h6{
+        font-size: 50px;
+    }
+
+    .nokia span{
+        font-size: 20px;
+    }
+
+    .in{
+        width: 428px;
+        height: 59px;
+    }
+
+    .level input{
+        width: 49px;
+        height: 26px;
+    }
+
+    .level label{
+        font-size: 18px;
+    }
+
+    .phone span{
+        width: 493px;
+    }
+
+    .checkboxes{
+        width: 428px;
+    }
+
+    .rain{
+        margin-right: 115px;
+    }
+}
